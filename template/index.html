@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Lacak Lokasi Media</title>
+</head>
+<body>
+  <h2>Upload Gambar / Video</h2>
+  <form method="POST" enctype="multipart/form-data">
+    <input type="file" name="media" required>
+    <button type="submit">Lacak Lokasi</button>
+  </form>
+  {% if hasil %}
+    <h3>Hasil:</h3>
+    <pre>{{ hasil }}</pre>
+    <a href="/lokasi.html" target="_blank">Lihat Peta</a>
+  {% endif %}
+</body>
+</html>
