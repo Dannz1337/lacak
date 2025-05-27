@@ -1,0 +1,1 @@
+web: python lokasi_media_web.py

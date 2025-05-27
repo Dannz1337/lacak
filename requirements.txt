@@ -1,0 +1,8 @@
+flask
+opencv-python-headless
+piexif
+pymediainfo
+pillow
+matplotlib
+geopy
+folium
